@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>O Super Mario Bros</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivel.css">
+</head>
+
+<body>
+
+    <div class="mascara-formulario" onclick="removerForm()"></div>
+
+    <div class="header">
+        <img src="./src/img/logo-header.png" alt="logo do mario">
+        <a href="">Home</a>
+        <a href="nossos-servicos.html">Nossos Serviços</a>
+        <a href="">Fale Conosco</a>
+    </div>
+
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img class="logo-mario" src="./src/img/logo.png" alt="logo do super mario bros">
+
+            <p>Encanadores Mario e Luigi - Resolvendo Seus Problemas Hidráulico Com Estilo</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium enim magni tempore, est dolor
+                architecto! Placeat aperiam aliquid fugiat non id iste, praesentium nisi repellat, quod hic
+                ducimusdebitisillum.</p>
+
+            <button onclick="mostrarForm()"> 
+                Entre em contato</button>
+        </div>
+
+        <div>
+            <img class="mario-e-luigi" src="./src/img/mario.png" alt="mario e luigi">
+        </div>
+
+    </div>
+
+    <div class="caixa-video">
+        <video src="./src/img/video.mp4" alt="video do mario e luigi" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+    <a class="link-whatsapp"
+        href="https://api.whatsapp.com/send?phone=5511914194835&text=ola%20gostaria%20de%20uma%20ajuda%20dos%20irm%C3%A3o%20mario">
+        <img src="./src/img/whatsapp.png" alt="link para o whatsapp">
+    </a>
+
+    <form class="formulario-fale-comigo">
+        <input placeholder="Seu Nome">
+        <input placeholder="Seu Telefone">
+        <textarea placeholder="Relate seu problema"></textarea>
+        <button>Faça Seu Orçamento</button>
+    </form>
+
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
